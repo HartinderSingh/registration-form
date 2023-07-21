@@ -1,0 +1,136 @@
+* {
+
+    margin: 0;
+    border: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #023047;
+    font-family: 'Raleway', sans-serif;
+}
+
+.logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+
+    border: 1px solid black;
+
+
+}
+
+.navbar {
+    display: flex;
+
+    width: 100%;
+    background-color: #219ebc;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    justify-content: center;
+
+}
+
+.navbar p {
+    color: black;
+    font-weight: 800;
+    font-size: 3rem;
+
+    margin-left: 1%;
+
+
+}
+
+.navbar2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 50px; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    background-color: #ffb703;
+}
+
+.navbar2 p {
+    font-size: 2rem;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    color: #fb8500;
+    margin-top: 5vh;
+
+
+
+}
+
+.style1 label {
+
+    font-family: 'Raleway', sans-serif;
+}
+
+.style1 {
+    /* height: 4vh; */
+
+    margin-top: 1.5rem;
+}
+
+input {
+    border: 3px solid #f4a261;
+    /* height: 20px; */
+    width: 250px;
+    border-radius: 3px;
+}
+
+
+
+input:hover {
+    height: 30px;
+
+    background-color: #f1faee;
+    border: 2px solid rgba(18, 230, 54, 0.944);
+
+}
+
+input:focus {
+    border: 3px solid rgba(11, 198, 73, 0.944);
+    outline: none;
+}
+
+.roll input {
+    width: 200px;
+
+}
+
+.year input {
+    width: 260px;
+}
+
+button {
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-left: 30%;
+    height: 40px;
+    width: 110px;
+    border: 3px solid rgb(0, 0, 0);
+    color: #ffb703;
+    background-color: #219ebc;
+    border-radius: 8px;
+    transition-timing-function: ease-in;
+    transition-duration: .25s;
+}
+
+button:hover {
+    transform: scale(1.25);
+
+    color: rgb(18, 223, 35);
+    background-color: rgb(29, 76, 29);
+    border: 2px solid rgb(222, 149, 13);
+}
